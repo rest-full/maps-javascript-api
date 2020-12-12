@@ -1,0 +1,22 @@
+{
+  "name": "rest-full/maps-javascript-api",
+  "description": "uso do map na seu site ou no seu sistema web",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "José Luis",
+      "email": "joselbsimao18@yahoo.com.br"
+    }
+  ],
+  "require": {
+    "matthiasmullie/minify": "1.*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GoogleMap\\": "src"
+    }
+  }
+}
